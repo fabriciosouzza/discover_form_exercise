@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form id="contato" action="" method="">
+
+        <fieldset>
+            <legend>Preenchimento</legend>
+
+            <label for="nome">Nome:</label>
+            <input id="nome" autofocus type="text" placeholder="Digite o nome...">
+
+            <hr>
+
+            <label for="">Email:</label>
+            <input id="" type="email" placeholder="example@exmple.com">
+
+            <hr>
+
+            <label for="">R.A.:</label>
+            <input id="" type="number">
+
+            <hr>
+
+            <label for="">Início:</label>
+            <input id="" type="date">
+
+            <hr>
+
+            <label for="">Identidade visual:</label>
+            <input id="" type="color">
+            <input id="" type="color">
+            <input id="" type="color">
+
+            <hr>
+
+            <label for="">Curso:</label>
+            <input id="" type="text" list="listaOpções" required>
+
+            <hr>
+
+            <label for="turnoSelete">Turno:</label>
+            <select name="turnos" id="turnoSelete">
+                <option value="Matutino">Matutino</option>
+                <option value="Vespertino">Vespertino</option>
+                <option value="Noturno">Noturno</option>
+            </select>
+
+            <hr>
+
+            <fieldset>
+                <legend>Etapa:</legend>
+                <input id="grad" type="radio" value="Graduação" name="etapa">
+                <label for="grad">Graduação</label>
+                <br>
+                <input id="espe" type="radio" value="Especialização" name="etapa">
+                <label for="espe">Especialização</label>
+                <br>
+                <input id="mest" type="radio" value="Mestrado" name="etapa">
+                <label for="mest">Mestrado</label>
+                <br>
+                <input id="dout" type="radio" value="Doutorado" name="etapa">
+                <label for="dout">Doutorado</label>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>Assuntos:</legend>
+                <input id="tra" type="checkbox" value="Graduação" name="assunto">
+                <label for="tra">Transferência</label>
+                <br>
+                <input id="dis" type="checkbox" value="Especialização" name="assunto">
+                <label for="dis">Dispensa</label>
+                <br>
+                <input id="for" type="checkbox" value="Mestrado" name="assunto">
+                <label for="for">Formatura</label>
+                <br>
+                <input id="ins" type="checkbox" value="Doutorado" name="assunto">
+                <label for="ins">Inscrição</label>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>Descreva sua solicitação:</legend>
+                <textarea name="" id="" cols="52" rows="5"></textarea>
+            </fieldset>
+
+            <hr>
+            
+            <label for="">Senha:</label>
+            <input id="" type="password" minlength="6" required>
+
+            <datalist id="listaOpções">
+                <option value="Ed. Física">
+                <option value="Ecologia">
+                <option value="Eng. de Materiais">
+                <option value="Química">
+                <option value="Filosofia">
+                <option value="Mecânica">
+            </datalist>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Confirmação</legend>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>  
+</body>
+</html>
